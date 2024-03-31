@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "backtesting"
+version = "0.1.0"
+description = ""
+authors = ["kolommik <mikhail.kolomasov@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+backtrader = "^1.9.78.123"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+mypy = "^1.9.0"
+pylint = "^3.1.0"
+flake8 = "^7.0.0"
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
