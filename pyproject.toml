@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 backtrader = "^1.9.78.123"
+matplotlib = "^3.8.3"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.3.0"
